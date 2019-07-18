@@ -1,0 +1,84 @@
+
+.tuq_add_quiz_question_box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px 10px;
+}
+
+
+.tuq_add_quiz_question > span {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.tuq_quiz_question,
+.tuq_quiz_option {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+
+.add_ans_options,
+.add_new_question_wr {
+    text-align: right;
+}
+
+.add_ans_options > a,
+.add_new_question_wr > a {
+    background: #cc0000 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 0 #aa0000;
+    color: #fff !important;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px 15px; 
+    text-decoration: none;
+}
+
+.select_correct_answer > select {
+    height: auto !important;
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+
+.tuq_options_container {
+    background: #eee none repeat scroll 0 0;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.tuq_new_options_box {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.tuq_warning_alert {
+    color: #ff0000;
+}
+
+.remove_option,
+.remove_question {
+    background: #000 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 8px 10px;
+}
+
+.select_correct_answer {
+    margin: 20px 0;
+}

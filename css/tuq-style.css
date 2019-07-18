@@ -1,0 +1,146 @@
+ /*Quiz CSS*/
+
+.tuq_quiz_question_wr {
+    border: 1px solid #bb0000;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    display:none;
+}
+
+.tuq_quiz_question_wr.active{
+    display: block;
+}
+ 
+.tuq_question {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.tuq_answere ul {
+    margin: 0;
+}
+
+.tuq_answere ul li {
+    list-style: outside none none;
+}
+
+.tuq_answere ul li label {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 25px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold; 
+    background-color: #eeeeee;             
+}
+
+.tuq_answere ul li.tuq_checked_ans label {
+    background: #00cc00 none repeat scroll 0 0;
+    border: 1px solid #00cc00;
+    color: #fff;
+}
+
+.tuq_question_answer {
+    font-weight: bold;
+}
+
+.tuq_answere ul li input {
+    display: none;
+}
+
+.tuq_question > span {
+    color: #bb0000;
+}
+
+.tuq_next_prev_nav {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.tuq_next_prev_nav a {
+    background: #bb0000 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 10px 15px; 
+}
+
+.tuq_next_prev_nav a.tuq_prev_btn {
+    float: left;
+}
+
+.tuq_next_prev_nav a.tuq_next_btn {
+    float: right;
+}
+
+.tuq_next_prev_nav a.disabled {
+    background: rgba(255, 0, 0, 0.5) none repeat scroll 0 0;
+    pointer-events: none;
+}
+
+.submit_quiz_ans > a {
+    background: #00cc00 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 9px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.submit_quiz_ans {
+    display:none;
+}
+
+.tuq_result_popup {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+    text-align: center;
+}
+
+.tuq_popup {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #000;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 40px;
+    text-align: left;
+    position: relative;
+}
+
+.tuq_result_popup h3 {
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.tuq_result_popup .close {
+    color: #cc0000;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+    top: 10px;
+}
